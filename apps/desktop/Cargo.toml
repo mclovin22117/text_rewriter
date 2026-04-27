@@ -1,0 +1,9 @@
+[package]
+name = "text-rewriter-desktop"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+text-rewriter-core = { path = "../../crates/core" }
+text-rewriter-providers = { path = "../../crates/providers" }
+anyhow = "1"

@@ -1,0 +1,19 @@
+[workspace]
+members = [
+  "apps/desktop",
+  "crates/core",
+  "crates/platform",
+  "crates/providers",
+  "crates/secure_store",
+  "crates/telemetry",
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2024"
+version = "0.1.0"
+license = "MIT"
+authors = ["Text Rewriter Team"]
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
